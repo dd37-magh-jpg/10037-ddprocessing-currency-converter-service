@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git url: 'https://github.com/dd37-magh-jpg/10037-ddprocessing-NoteTaker-service.git/'
+                git url: 'https://github.com/dd37-magh-jpg/10037-ddprocessing-currency-converter-service.git'
             }
         }
         stage('build && SonarQube analysis') {
